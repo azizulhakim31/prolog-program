@@ -1,3 +1,6 @@
+% Query example:
+% ?- dfs(a, Path).
+
 edge(a,b).
 edge(a,c).
 

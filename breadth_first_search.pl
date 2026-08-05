@@ -1,3 +1,6 @@
+% Query example:
+% ?- bfs(a, Path).
+
 edge(a,b).
 edge(a,c).
 

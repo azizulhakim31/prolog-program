@@ -1,10 +1,15 @@
+% Query example:
+% ?- travel(london, Path, Cost).
+
 path(london, berlin, 105).
 path(london, dubai, 96).
 path(london, tokyo, 167).
 path(london, sydney, 189).
+
 path(berlin, dubai, 158).
 path(berlin, tokyo, 132).
 path(berlin, sydney, 175).
+
 path(dubai, tokyo, 148).
 path(dubai, sydney, 110).
 path(tokyo, sydney, 122).
